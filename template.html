@@ -1,0 +1,267 @@
+<!-- 
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styletemplate.css">
+    <script type="text/javascript" src="template.js" ></script>
+</head>
+<body>
+<div class="resume">
+  <div class="column">
+    <section class="profile">
+      <h1><span id="result-name" /></h1>
+      <p><em><span id="result-des" /></em></p>
+      <img src="https://joeschmoe.io/api/v1/abhinandan" alt="">
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li><span id="result-address" /></li>
+        <li><span id="result-emailid" /></li>
+        <li><span id="result-phonenumber" /></li>
+      </ul>
+    </section>
+
+    <section class="objectives">
+      <p>
+        <span id="result-aboutyourself" />
+      </p>
+    </section>
+
+    <section class="socials">
+      <ul>
+        <li><span id="result-twitterhandle" /></li>
+        <li><span id="result-linkdin" /></li>
+        <li><span id="result-github" /></li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>Capabilities/Skills</h2>
+      <ul>
+        <li>
+          <h3>Professional</h3>
+          <ul>
+            <li><span id="result-pro1" /></li>
+            <li><span id="result-pro2" /></li>
+            <li><span id="result-pro3" /></li>
+            <li><span id="result-pro4" /></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Personal</h3>
+          <ul>
+            <li><span id="result-s1" /></li>
+            <li><span id="result-s2" /></li>
+            <li><span id="result-s3" /></li>
+            <li><span id="result-s4" /></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="column">
+    <section class="education">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li class="event">
+          <span class="duration"><span id="result-schooltimeline" /></span>
+          <div class="content">
+            <h3>school</h3>
+            <p><em><span id="result-schoolname" /></em></p>
+            <p><span id="result-aboutschool" /></p>
+            
+          </div>
+        </li>
+        <li class="event">
+          <span class="duration"><span id="result-collagetimeline" /></span>
+          <div class="content">
+            <h3>Collage</h3>
+            <p><em><span id="result-collagename" /></em></p>
+            <p><span id="result-aboutcollage" /></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li class="event">
+          <span class="duration"><span id="result-ex1timeline" /></span>
+          <div class="content">
+            <h3><span id="result-ex1des" /></h3>
+            <p><span id="result-ex1company" /></p>
+          </div>
+        </li>
+        <li class="event">
+          <span class="duration"><span id="result-ex2timeline" /></span>
+          <div class="content">
+            <h3><span id="result-ex2des" /></h3>
+            <p><span id="result-ex2company" /></p>
+          </div>
+        </li>
+        <li class="event">
+          <span class="duration"><span id="result-ex2timeline" /></span>
+          <div class="content">
+            <h3><span id="result-ex2des" /></h3>
+            <p><span id="result-ex2company" /></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+</div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="styletemplate.css">
+    <script type="text/javascript" src="template.js" ></script>
+</head>
+<body>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<div class="resume">
+  <div class="column">
+    <section class="profile">
+      <h1><span id="result-name" /></h1>
+      <p><em><span id="result-des" /></em></p>
+      <div class="drop-zone" contenteditable="false">
+        <img id="userIcon" src="assets/img/user.png" alt="UserPhoto">
+        <!-- <span id="upload" class="drop-zone__prompt"><p>Click <br> to <br> upload</p></span> -->
+        <input id="inpfile" type="file" name="myFile" accept="image/x-png,image/gif,image/jpeg" class="drop-zone__input" hidden="hidden">
+    </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li><p>Address    :</p><span id="result-address"/></li>
+        <li><p>Email-ID   :</p><span id="result-emailid"/></li>
+        <li><p>phonenumbe :</p><span id="result-phonenumber"/></li>
+      </ul>
+    </section>
+
+    <section class="objectives">
+      <h2>About me</h2>
+      <p style="text-align: justify;"><span id="result-aboutyourself" /></p>
+    </section>
+
+    <section class="socials">
+      <ul>
+        <li>TWITTER : <span id="result-twitterhandle" /></li>
+        <li>LINKDIN : <span id="result-linkdin" /></li>
+        <li>GIT-HUB  : <span id="result-github" /></li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>Capabilities/Skills</h2>
+      <ul>
+        <li>
+          <h3>Professional-Skills</h3>
+          <ul>
+            <li><span id="result-pro1" /></li>
+            <li><span id="result-pro2" /></li>
+            <li><span id="result-pro3" /></li>
+            <li><span id="result-pro4" /></li>
+          </ul>
+        </li>
+        <li>
+          <h3>Soft-Skills</h3>
+          <ul>
+            <li><span id="result-s1" /></li>
+            <li><span id="result-s2" /></li>
+            <li><span id="result-s3" /></li>
+            <li><span id="result-s4" /></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="column">
+    <section class="education">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li class="event">
+          <span class="duration"><p id="result-schooltimeline" /></span>
+          <div class="content">
+            <h3>SCHOOL</h3>
+            <p><em><span id="result-schoolname" /></em></p>
+            <p>HSC : <span id="result-aboutschool" /></p>
+          </div>
+        </li>
+        <li class="event">
+          <span class="duration"><p id="result-collagetimeline" /></span>
+          <div class="content">
+            <h3>COLLAGE</h3>
+            <p><em><span id="result-collagename" /></em></p>
+            <p>CGPA : <span id="result-aboutcollage" /></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li class="event">
+          <span class="duration"><P id="result-ex1timeline" /></span>
+          <div class="content">
+            <h3><span id="result-ex1company" /></h3>
+            <p><span id="result-ex1des" /></p>
+          </div>
+        </li>
+        <li class="event">
+          <span class="duration"><P id="result-ex2timeline" /></span>
+          <div class="content">
+            <h3><span id="result-ex2company" /></h3>
+            <p><span id="result-ex2des" /></p>
+          </div>
+        </li>
+        <li class="event">
+          <span class="duration"><P id="result-ex3timeline" /></span>
+          <div class="content">
+            <h3><span id="result-ex3company" /></h3>
+            <p><span id="result-ex3des" /></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>INTRESTS</h2>
+          <div class="content">
+            <ul style="padding-left: 30px;font-size: larger; list-style-type: disc;">
+              <li><span id="result-i1"/></li>
+              <li><span id="result-i2"/></li>
+              <li><span id="result-i3"/></li>
+              <li><span id="result-i4"/></li>
+            </ul>
+          </div>
+       
+      
+    </section>
+  </div>
+</div>
+</body>
+</html>

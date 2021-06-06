@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>info page </title>
+    <link rel="stylesheet" href="styleform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="form.js"></script>
+    <!-- <script type="text/javascript" src="template.js"></script> -->
+  </head>
+  <body>
+
+<div class="information-section">
+
+  <h1>Information </h1>
+  <div class="border"></div>
+  
+  <form class="information-form" action="template.html" method="post">
+    
+    <input type="text" id="name" class="information-form-text" placeholder="Your name">
+    <input type="text" id="des" class="information-form-text" placeholder="Your designation">
+   
+    <h3>contact info.</h3>
+    <textarea id="address" class="information-form-text" placeholder="Your address"></textarea>
+    <input type="email" id="emailid" class="information-form-text" placeholder="Your email">
+    <input type="text" id="phonenumber" class="information-form-text" placeholder="Your phone">
+    
+    <h3>About yourself</h3>
+    <textarea id="aboutyourself" class="information-form-text" placeholder="about yourself"></textarea>
+   
+    <h3>Social links</h3>
+    <input type="text" id="twitterhandle" class="information-form-text" placeholder="twitter">
+    <input type="text" id="linkdin" class="information-form-text" placeholder="linkdin">
+    <input type="text" id="github" class="information-form-text" placeholder="github">
+    
+    <h3>Professional skills</h3>
+    <input type="text" id="pro1" class="information-form-text" placeholder="professional_skill-1">
+    <input type="text" id="pro2" class="information-form-text" placeholder="professional_skill-2">
+    <input type="text" id="pro3" class="information-form-text" placeholder="professional_skill-3">
+    <input type="text" id="pro4" class="information-form-text" placeholder="professional_skill-4">
+    
+    <h3>Soft skills</h3>
+    <input type="text" id="s1" class="information-form-text" placeholder="soft_skill-1">
+    <input type="text" id="s2" class="information-form-text" placeholder="soft_skill-2">
+    <input type="text" id="s3" class="information-form-text" placeholder="soft_skill-3">
+    <input type="text" id="s4" class="information-form-text" placeholder="soft_skill-4">
+    
+    <h3>Education</h3>
+    <br>
+    
+    <h5>school education</h5>
+    <input type="text" id="schoolname" class="information-form-text" placeholder="school name">
+    <input type="text" id="schooltimeline" class="information-form-text" placeholder="school-timeline">
+    <input type="number" id="aboutschool" class="information-form-text" placeholder="12th marks">
+   
+    <h5>Collage education</h5>
+    <input type="text" id="collagename" class="information-form-text" placeholder="collage name">
+    <input type="text" id="collagetimeline" class="information-form-text" placeholder="collage-timeline">
+    <input type="number" id="aboutcollage" class="information-form-text" placeholder="last year CGPA ">
+    
+    <h3>Experience</h3><br>
+    
+    <h5>Experience-1</h5>
+    <input type="text" id="ex1des" class="information-form-text" placeholder="Your designation">
+    <input type="text" id="ex1timeline" class="information-form-text" placeholder="experiance-timeline">
+    <input type="text" id="ex1company" class="information-form-text" placeholder="company name"><br>
+    
+    <h5>Experience-2</h5>
+    <input type="text" id="ex2des" class="information-form-text" placeholder="Your designation">
+    <input type="text" id="ex2timeline" class="information-form-text" placeholder="experiance-timeline">
+    <input type="text" id="ex2company" class="information-form-text" placeholder="company name"><br>
+    
+    <h5>Experience-3</h5>
+    <input type="text" id="ex3des" class="information-form-text" placeholder="Your designation">
+    <input type="text" id="ex3timeline" class="information-form-text" placeholder="experiance-timeline">
+    <input type="text" id="ex3company" class="information-form-text" placeholder="company name"><br>
+
+    <h3>Intersts</h3>
+    <input type="text" id="i1" class="information-form-text" placeholder="Intersts-1">
+    <input type="text" id="i2" class="information-form-text" placeholder="Intersts-2">
+    <input type="text" id="i3" class="information-form-text" placeholder="Intersts-3">
+    <input type="text" id="i4" class="information-form-text" placeholder="Intersts-4"><br>
+    
+    <input type="submit" class="information-form-btn" value="submit" onclick="handleSubmit()">
+  </form>
+</div>
+  </body>
+</html>
